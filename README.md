@@ -13,13 +13,14 @@ This project is for paper ["Uncertainty Exploration: Toward Explainable SAR Targ
   volume={61},
   pages={1-14},
   doi={10.1109/TGRS.2023.3247898}}
+```
 
 ## Features
 1. Bayesian deep detectors (BDDs) for horizontal and oriented SAR targets are constructed for uncertainty quantification, answering how much to trust the classification and localization result.
 ![det](https://github.com/XAI4SAR/X-SARDet/blob/main/det.png)
 
 2. An occlusion-based explanation method (U-RISE) for BDD is proposed to account for the SAR scattering features that cause uncertainty or promote trustworthiness.
-![det](https://github.com/XAI4SAR/X-SARDet/blob/main/exp.png)
+![det](https://github.com/XAI4SAR/X-SARDet/blob/main/explanation.png)
 
 3. Counterfactual analysis is conducted to verify the cause-and-effect relationship between the U-RISE explanation and BDD prediction.
 ![det](https://github.com/XAI4SAR/X-SARDet/blob/main/cont.png)
