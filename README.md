@@ -25,19 +25,19 @@ X-SARDet provides Bayesian deep detectors for SAR ship detection, which provide 
 1. Bayesian deep detectors (BDDs) for horizontal and oriented SAR targets are constructed for uncertainty quantification, answering how much to trust the classification and localization result.
 
 <div align=center>
-<img src="https://github.com/XAI4SAR/X-SARDet/blob/main/images/det.png"/>
+<img width = "800" src="https://github.com/XAI4SAR/X-SARDet/blob/main/images/det.png"/>
 </div>
 
 2. An occlusion-based explanation method (U-RISE) for BDD is proposed to account for the SAR scattering features that cause uncertainty or promote trustworthiness.
 
 <div align=center>
-<img src="https://github.com/XAI4SAR/X-SARDet/blob/main/images/exp.png"/>
+<img width = "800" src="https://github.com/XAI4SAR/X-SARDet/blob/main/images/explanation.png"/ >
 </div>
 
 3. Counterfactual analysis is conducted to verify the cause-and-effect relationship between the U-RISE explanation and BDD prediction.
 
 <div align=center>
-<img src="https://github.com/XAI4SAR/X-SARDet/blob/main/images/cont.png"/>
+<img width = "800" src="https://github.com/XAI4SAR/X-SARDet/blob/main/images/cont.png"/>
 </div>
 
 ## Getting Started
