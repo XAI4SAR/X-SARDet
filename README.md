@@ -40,3 +40,12 @@ This project is for paper ["Uncertainty Exploration: Toward Explainable SAR Targ
 
 ## Getting Started
 Code is based on an oriented object detection toolbox, [OBBdetection](https://github.com/jbwang1997/OBBDetection). Please refer to [install.md of OBBdetection](https://github.com/jbwang1997/OBBDetection/blob/master/docs/install.md) for installation and dataset preparation.
+
+1. Get the probablistic detection results
+```shell
+python uncertainty/inference/Bayesian_inference.py --img demo/000009.jpg --config ckpt/SSDD+/FCOS_MCdropout/fcos_obb_r50_caffe_fpn_gn-head_4x4_SSDD+_MCdropout.py --checkpoint ckpt/SSDD+/FCOS_MCdropout/epoch_36.pth --out ckpt/SSDD+/FCOS_MCdropout/out --show
+```
+2. 
+```shell
+python uncertainty/explanation/Attribution_Analysis_quick_pdq.py --img demo/000009.jpg  --config ckpt/SSDD+/FCOS_MCdropout/fcos_obb_r50_caffe_fpn_gn-head_4x4_SSDD+_MCdropout.py --checkpoint ckpt/SSDD+/FCOS_MCdropout/epoch_36.pth --result ckpt/SSDD+/FCOS_MCdropout/out/000009/prob_results.txt
+```
