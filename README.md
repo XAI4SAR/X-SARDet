@@ -3,12 +3,11 @@
 ## Introduction
 This project is for paper ["Uncertainty Exploration: Toward Explainable SAR Target Detection"](https://ieeexplore.ieee.org/document/10050159)
 
-X-SARDet provides Bayesian deep detectors for SAR ship detection, which provide probabilistic detection results for the users. Here, uncertainty estimation and explanation are conducted for SAR ship detection.
-
 <div align=center>
 <img src="https://github.com/XAI4SAR/X-SARDet/blob/main/images/intro.png"/>
 </div>
 
+If you found this code useful, please cite our paper
 
 ```LaTex
 @ARTICLE{huang2023,
@@ -60,3 +59,6 @@ python uncertainty/inference/Bayesian_inference.py --img demo/000009.jpg --confi
 python uncertainty/explanation/Attribution_Analysis.py --img demo/000009.jpg  --config ckpt/SSDD+/FCOS_MCdropout/fcos_obb_r50_caffe_fpn_gn-head_4x4_SSDD+_MCdropout.py --checkpoint ckpt/SSDD+/FCOS_MCdropout/epoch_36.pth --result ckpt/SSDD+/FCOS_MCdropout/out/000009/prob_results.txt
 ```
 
+## Contributors
+
+[@lllying](https://github.com/lllying) [@Alien9427](https://github.com/Alien9427)
